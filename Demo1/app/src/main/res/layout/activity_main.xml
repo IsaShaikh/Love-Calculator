@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❤ Love Calculator ❤"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <!-- Partner 1 Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/partner1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="120dp"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/partner1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#D6D6D6" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Partner 2 Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/partner2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partner1_layout"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxBackgroundMode="outline">
+
+        <EditText
+            android:id="@+id/partner2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Partner's Name"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#D6D6D6" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💖 Calculate 💖"
+        android:layout_below="@id/partner2_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="18dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:foreground="@drawable/ripple_effect" />
+
+
+
+    <!-- Lottie Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/heart_animation"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/heart_animation"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:visibility="gone" />
+</RelativeLayout>
