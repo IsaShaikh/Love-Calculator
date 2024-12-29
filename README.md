@@ -51,11 +51,14 @@ Although the concept of the app is playful and purely random, the project primar
 4. Run the app on an emulator or physical device.
 
 ## 📸 Screenshots
-![calc1](https://github.com/user-attachments/assets/a22a0b21-6151-4a5a-bc66-805ddcf9e51c)
+![calc1](https://github.com/user-attachments/assets/7384b41e-b254-4c43-a5ef-bf1fe3ea0112)
 
-![calc2](https://github.com/user-attachments/assets/25f11b93-7fe0-449d-8d5d-0bd6d49657c3)
 
-![calc3](https://github.com/user-attachments/assets/931f230b-f440-45b4-adf6-0b9c800c7355)
+![calc2](https://github.com/user-attachments/assets/55ef5825-29ce-4243-b73f-09c60f04b174)
+
+
+![calc3](https://github.com/user-attachments/assets/88babd02-910a-4c35-9f39-5df265ec80cc)
+
 
 
 ## 🤝 Contributing
