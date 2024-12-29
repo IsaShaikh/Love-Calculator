@@ -11,6 +11,18 @@ A fun Java application that calculates the love percentage between two names! Th
 ## 🎯 Purpose
 Although the concept of the app is playful and purely random, the project primarily focuses on demonstrating how to integrate **Lottie animations** into Java applications to enhance user experience and interface design.
 
+`Why Lottie Animations?`
+
+Lottie animations are far superior to GIFs or videos for UI design because they are:
+
+📉 Smaller in size – Lottie files are vector-based and significantly lighter compared to GIFs or videos.
+
+🎨 Scalable without losing quality – Animations stay crisp at any screen resolution.
+
+⚡ Performance-efficient – They render quickly and do not cause lag, providing a smoother user experience.
+
+🔄 Easily customizable – Lottie files can be edited directly or modified dynamically through code.
+
 ## 🛠️ Technologies Used
 - **Java** – Core application logic
 - **Lottie** – For interactive and dynamic UI animations
