@@ -56,7 +56,7 @@ Lottie animations are far superior to GIFs or videos for UI design because they 
 ## 🔧 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/love-calculator.git
+   git clone https://github.com/IsaShaikh/love-calculator.git
    ```
 2. Open the project in Android Studio.
 3. Make sure Lottie dependencies are properly set up.
